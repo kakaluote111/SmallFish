@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .can-container {
+            width: 800px;
+            height: 600px;
+            margin: 100px auto;
+            border: 1px #000 solid;
+            position: relative;
+        }
+
+        #canvas1 {
+            position:absolute;
+            z-index: 1;
+        }
+
+        #canvas2 {
+            position:absolute;
+            z-index: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="all-container">
+        <div class="can-container">
+            <canvas id="canvas1" width="800" height="600">你的浏览器不支持 canvas</canvas>
+            <canvas id="canvas2" width="800" height="600">你的浏览器不支持 canvas</canvas>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="js/commonFunctions.js"></script>
+<script type="text/javascript" src="./js/Main.js"></script>
+<script type="text/javascript" src="./js/Background.js"></script>
+<script type="text/javascript" src="./js/Ane.js"></script>
+
+</html>
